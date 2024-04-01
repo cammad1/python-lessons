@@ -13,10 +13,10 @@ a = 5
 b = 3
 
 def operators(addition, subtraction, division, exponential, modulo):
-    addition = a + b
-    subtraction = a - b
-    division = a / b
-    exponential = a^b
-    modulo = a % b
+    (addition, (a + b))
+    (subtraction, (a - b))
+    (division, (a / b))
+    (exponential, (a^b))
+    (modulo, a % b)
 
 operators(addition, subtraction, division, exponential, modulo)
