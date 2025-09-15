@@ -1,0 +1,22 @@
+ClrHome
+Output(1,1,"MINI TETRIS")
+Output(3,1,"USE > < TO MOVE")
+Output(4,1,"2ND TO DROP")
+Pause
+ClrHome
+0→X
+Repeat K=105
+getKey→K
+If K=24 and X>0
+Then
+X-1→X
+End
+If K=26 and X<15
+Then
+X+1→X
+End
+ClrHome
+Output(8,X,"[]")
+End
+Output(4,1,"DROPPED!")
+Pause

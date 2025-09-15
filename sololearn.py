@@ -1,3 +1,2 @@
-brands = ["Honda", "Toyota", "BMW", "Mercedes"]
-
-print(brands[-3:-1])
+animals =["cat", "dog", "bird", "cow"]
+print(animals[1:3])
